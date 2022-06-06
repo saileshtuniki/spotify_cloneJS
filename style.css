@@ -1,0 +1,40 @@
+#song-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+ /* .song-list {
+    width: 23%;
+    height: auto;
+    margin: 10px;
+}  */
+#alb-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#artist-view {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#main-Page-Btn{
+    transition: all 0.5s;
+    cursor: pointer;
+    width:80%;
+    height: 20%;
+    margin-top: 10%;
+    font-size: 60px;
+    color:black;
+    font-weight: bold;
+    border-radius: 30rem;
+    border-width: 5px;
+    border-color: black;
+
+    background-image: linear-gradient(90deg, #2bff00, #7eec2f);   
+}
+
+
+
