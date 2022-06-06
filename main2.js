@@ -103,7 +103,7 @@ searchbtn.addEventListener('click', (e) => {
                         albumoutput += 
                         `
                         <div class=" card mb-3 bg-dark text-white " style= "width: 15rem " >
-                            <a style="text-decoration: none" href ="${newresponse.tracks.items[index].href}">
+                            <a style="text-decoration: none" href ="${newresponse.tracks.items[index].preview_url}">
 
                             <div clas="card-body text-white">
                             <img src="${newresponse.images[0].url}">
